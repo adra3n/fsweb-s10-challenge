@@ -14,8 +14,7 @@ export default function Post({ item }) {
 
     e.preventDefault()
 
-    dispatch(notSilAPI(item.id))
-    toast('Not silindi')
+    dispatch(notSilAPI(item.id), toast.warn('Not silindi'))
   }
 
   return (
@@ -34,7 +33,7 @@ export default function Post({ item }) {
       ))}
 
       <button
-        className="text-xs text-amber-600 mt-4 underline"
+        className="text-xs text-sertac-700 mt-4 underline"
         onClick={handleSil}
       >
         Bu notu sil

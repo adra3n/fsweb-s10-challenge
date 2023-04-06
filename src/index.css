@@ -4,21 +4,21 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffe4a9;
+  background-color: #f8f6dd;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 .myButton {
-  @apply px-4 py-2 transition-colors inline-flex gap-2 items-center font-bold bg-amber-700 hover:bg-amber-600 text-white self-end;
+  @apply px-4 py-2 transition-colors inline-flex gap-2 items-center font-bold bg-sertac-800 hover:bg-sertac-700 text-white self-end;
 }
 
 .beyazKutu {
@@ -26,8 +26,8 @@ code {
 }
 
 h1 {
-  font-family: "Alex Brush", cursive;
-  @apply text-3xl text-amber-600;
+  font-family: 'Alex Brush', cursive;
+  @apply text-3xl text-sertac-800;
 }
 
 nav {

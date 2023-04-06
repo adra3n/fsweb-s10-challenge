@@ -5,6 +5,7 @@ import { useHistory } from 'react-router'
 import Gratitude from './../assets/grForm.png'
 import { useDispatch } from 'react-redux'
 import { notEkleAPI } from '../actions'
+import { toast } from 'react-toastify'
 
 export default function PostForm() {
   const {
@@ -30,7 +31,7 @@ export default function PostForm() {
     // sonra aşağıdaki satırı aktifleştirin
     // setTimeout(() => history.push("/notlar"), 2000);
 
-    dispatch(notEkleAPI(yeniNot))
+    dispatch(notEkleAPI(yeniNot), toast.success('Not Eklendi'))
     setTimeout(() => history.push('/notlar'), 2000)
   }
 

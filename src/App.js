@@ -13,21 +13,21 @@ export default function App() {
             to="/"
             exact
             className="p-4 pb-3 tracking-tighter"
-            activeClassName="text-amber-600"
+            activeClassName="text-sertac-700"
           >
             Anasayfa
           </NavLink>
           <NavLink
             to="/notlar"
             className="p-4 pb-3 tracking-tighter"
-            activeClassName="text-amber-600"
+            activeClassName="text-sertac-700"
           >
             Tüm Notlar
           </NavLink>
           <NavLink
             to="/yeni-not"
             className="p-4 pb-3 tracking-tighter"
-            activeClassName="text-amber-600"
+            activeClassName="text-sertac-700"
           >
             Yeni Not
           </NavLink>
@@ -39,7 +39,7 @@ export default function App() {
             <div className="beyazKutu">
               <img src={Img} alt="" />
               <div className="px-8 pt-7 pb-6 text-sm">
-                <h1 className="text-3xl text-amber-600">
+                <h1 className="text-3xl text-sertac-800">
                   Minnet Günlüğü Nedir?
                 </h1>
                 <p className="my-2">
