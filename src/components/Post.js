@@ -2,6 +2,7 @@ import React from 'react'
 import { formatDistanceToNow } from 'date-fns'
 import { tr } from 'date-fns/locale'
 import { useDispatch } from 'react-redux'
+import { toast } from 'react-toastify'
 import { notSilAPI } from '../actions'
 
 export default function Post({ item }) {
@@ -14,6 +15,7 @@ export default function Post({ item }) {
     e.preventDefault()
 
     dispatch(notSilAPI(item.id))
+    toast('Not silindi')
   }
 
   return (

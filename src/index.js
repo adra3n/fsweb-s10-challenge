@@ -10,6 +10,8 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { composeWithDevTools } from '@redux-devtools/extension'
 import logger from 'redux-logger'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 import './index.css'
 
@@ -24,6 +26,7 @@ root.render(
   <Provider store={store}>
     <BrowserRouter>
       <>
+        <ToastContainer />
         <App />
       </>
     </BrowserRouter>
