@@ -1,8 +1,8 @@
-import React from "react";
-import { Switch, Route, NavLink } from "react-router-dom";
-import PostForm from "./components/PostForm";
-import PostList from "./components/PostList";
-import Img from "./assets/gratitude.jpg";
+import React from 'react'
+import { Switch, Route, NavLink } from 'react-router-dom'
+import PostForm from './components/PostForm'
+import PostList from './components/PostList'
+import Img from './assets/gratitude.jpg'
 
 export default function App() {
   return (
@@ -48,7 +48,7 @@ export default function App() {
                   sık sık teşekkür ettiği şeyleri yazdığı bir tür günlüktür.
                   Zihinsel iyi oluş için basit fakat oldukça etkili bir
                   yöntemdir ve kişinin hayata pozitif bir bakış açısı
-                  geliştirmesine yardımcı olabilir.{" "}
+                  geliştirmesine yardımcı olabilir.{' '}
                 </p>
               </div>
             </div>
@@ -67,5 +67,5 @@ export default function App() {
         </Route>
       </Switch>
     </div>
-  );
+  )
 }
