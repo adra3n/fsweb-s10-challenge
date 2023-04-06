@@ -33,7 +33,7 @@ export default function Post({ item }) {
       ))}
 
       <button
-        className="text-xs text-sertac-700 mt-4 underline"
+        className="text-xs text-fuchsia-600 mt-4 underline"
         onClick={handleSil}
       >
         Bu notu sil

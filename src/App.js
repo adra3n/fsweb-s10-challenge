@@ -6,28 +6,28 @@ import Img from './assets/gratitude.jpg'
 
 export default function App() {
   return (
-    <div>
+    <div className="min-h-screen">
       <div className="bg-white shadow mb-8">
         <nav className="flex gap-2 justify-center max-w-xl mx-auto text-zinc-500">
           <NavLink
             to="/"
             exact
             className="p-4 pb-3 tracking-tighter"
-            activeClassName="text-sertac-700"
+            activeClassName="text-blue-400"
           >
             Anasayfa
           </NavLink>
           <NavLink
             to="/notlar"
             className="p-4 pb-3 tracking-tighter"
-            activeClassName="text-sertac-700"
+            activeClassName="text-blue-400"
           >
             Tüm Notlar
           </NavLink>
           <NavLink
             to="/yeni-not"
             className="p-4 pb-3 tracking-tighter"
-            activeClassName="text-sertac-700"
+            activeClassName="text-blue-400"
           >
             Yeni Not
           </NavLink>
@@ -35,11 +35,11 @@ export default function App() {
       </div>
       <Switch>
         <Route exact path="/">
-          <div className="max-w-xl mx-auto px-4 pb-8">
+          <div className="max-w-xl mx-auto px-4">
             <div className="beyazKutu">
               <img src={Img} alt="" />
               <div className="px-8 pt-7 pb-6 text-sm">
-                <h1 className="text-3xl text-sertac-800">
+                <h1 className="text-3xl text-fuchsia-700">
                   Minnet Günlüğü Nedir?
                 </h1>
                 <p className="my-2">

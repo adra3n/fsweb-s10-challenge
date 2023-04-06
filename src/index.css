@@ -9,7 +9,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f8f6dd;
+  /* background-color: #e255ac; */
+  box-sizing: border-box;
+  @apply bg-gradient-to-br from-blue-400 via-fuchsia-500 to-red-400;
 }
 
 code {
@@ -18,7 +20,7 @@ code {
 }
 
 .myButton {
-  @apply px-4 py-2 transition-colors inline-flex gap-2 items-center font-bold bg-sertac-800 hover:bg-sertac-700 text-white self-end;
+  @apply px-4 py-2 transition-colors inline-flex gap-2 items-center font-bold bg-fuchsia-500 hover:bg-red-400 text-white self-end;
 }
 
 .beyazKutu {
@@ -27,9 +29,15 @@ code {
 
 h1 {
   font-family: 'Alex Brush', cursive;
-  @apply text-3xl text-sertac-800;
+  @apply text-3xl  text-fuchsia-700;
 }
 
 nav {
   font-weight: 500;
 }
+
+/* @media only screen and (min-width: 1500px) {
+  body {
+    min-height: 100vh;
+  }
+} */
